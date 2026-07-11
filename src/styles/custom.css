@@ -2042,13 +2042,8 @@ html.mobile-detail-open body {
   }
 }
 
-/* Requested-only pass: compact drawer, separate capsule sizing, image-backed safe area. */
+/* Requested-only pass: compact drawer and separate capsule sizing. */
 @media screen and (max-width: 959px), (pointer: coarse) {
-  /* Let the real image list extend behind the transparent app bar and status area. */
-  .v-application .v-main {
-    padding-top: 0 !important;
-  }
-
   .v-application .v-app-bar,
   .v-application .v-app-bar .v-toolbar__content {
     background: transparent !important;
