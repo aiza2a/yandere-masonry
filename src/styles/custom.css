@@ -2204,10 +2204,3 @@ html.mobile-detail-open body {
     background: rgba(242, 242, 247, .12);
   }
 }
-
-/* Mobile app bar owns its Vuetify layout offset; cancel the legacy light-theme 64px override. */
-@media screen and (max-width: 959px), (pointer: coarse) {
-  .theme--light .v-main {
-    padding-top: calc(52px + env(safe-area-inset-top)) !important;
-  }
-}
